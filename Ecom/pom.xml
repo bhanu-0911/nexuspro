@@ -8,10 +8,10 @@
   <name>Ecom Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
-  <snapshotRepository>
-    <id>Ecomm</id>
-    <url>http://localhost:8081/nexus/content/repositories/Ecomm</url>
-  </snapshotRepository>
+  <repository>
+    <id>ecom</id>
+    <url>http://localhost:8081/nexus/content/repositories/ecom</url>
+  </repository>
 </distributionManagement>
   <dependencies>
     <dependency>
